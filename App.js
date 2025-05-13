@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, Image, TextInput, FlatList } from 'react-native';
-import List from './components/list';
+import List from './components/List.js';
 export default function App() {
  
   return (
