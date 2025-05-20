@@ -1,16 +1,14 @@
-import React, { useState } from 'react';
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Button, Image, TextInput, FlatList } from 'react-native';
-import List from './components/List.js';
+import React from 'react';
+import { StyleSheet, View } from 'react-native';
 
-import Inputs from './components/Inputs.js';
+import ScrollViewExample from './components/ScrollViewExamples';
 
 export default function App() {
  
   return (
     <View style={styles.container}>
-     <Inputs />
-  </View>
+      <ScrollViewExample />
+    </View>
   );
 }
 
@@ -20,6 +18,6 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     height: 600,
-    marginTop:150,
-  },
-});
+    marginTop: 150,
+  }
+})
