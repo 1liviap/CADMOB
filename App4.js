@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
-import ScrollViewExample from './components/ScrollViewExamples';
+import ScrollViewExample from './components/ScrollViewExample.js';
 
 export default function App() {
  
